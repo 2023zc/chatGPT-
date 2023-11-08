@@ -1,0 +1,6 @@
+-p 80:80
+--privileged true -d --restart always
+-v C:\Users\asus\Desktop\java\projects\dev-ops\nginx\conf\conf.d:/etc/nginx/conf.d  
+-v C:\Users\asus\Desktop\java\projects\dev-ops\nginx\html:/usr/share/nginx/html  
+-v C:\Users\asus\Desktop\java\projects\dev-ops\nginx\logs:/var/log/nginx
+-v C:\Users\asus\Desktop\java\projects\dev-ops\nginx\conf\nginx.conf:/etc/nginx/nginx.conf
